@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Time Crystal 3D</title>
+
+  <!-- STYLES -->
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      overflow: hidden;
+    }
+
+    #threeContainer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50vh;
+      z-index: 1;
+    }
+
+    #ui {
+      position: absolute;
+      top: 50vh;
+      left: 0;
+      width: 100%;
+      height: 50vh;
+      background-color: #111;
+      overflow-y: auto;
+      z-index: 2;
+      border-top: 2px solid #333;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+
+    #codexContainer {
+      color: #eee;
+    }
+
+    .codex-entry {
+      margin-bottom: 1rem;
+    }
+
+    .codex-link {
+      color: #00ffff;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    .codex-entry h3.highlight {
+      background-color: yellow;
+      color: black;
+      transition: background-color 1s;
+    }
+  </style>
+</head>
+<body>
+  <!-- 3D Viewer Area -->
+  <div id="threeContainer"></div>
+
+  <!-- UI Area -->
+  <div id="ui">
+    <div id="codexContainer"></div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

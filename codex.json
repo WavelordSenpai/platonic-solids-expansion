@@ -1,0 +1,37 @@
+[
+  {
+    "id": "time-crystal",
+    "title": "Time Crystal",
+    "summary": "A mystical crystal that helps manage your time and balance work and rest.",
+    "links": ["[[Guided Rest]]", "[[Platonic Solids]]"],
+    "tags": ["healing", "crystals", "time"]
+  },
+  {
+    "id": "guided-rest",
+    "title": "Guided Rest",
+    "summary": "Rest exercises and meditations guided by 3D solids to promote wellness.",
+    "links": ["[[Time Crystal]]"],
+    "tags": ["meditation", "rest", "health"]
+  },
+  {
+    "id": "platonic-solids",
+    "title": "Platonic Solids",
+    "summary": "The five perfect solids that embody sacred geometry and harmony.",
+    "links": ["[[Time Crystal]]", "[[Cymatics]]"],
+    "tags": ["geometry", "sacred", "shapes"]
+  },
+  {
+    "id": "cymatics",
+    "title": "Cymatics",
+    "summary": "The visual science of sound frequencies forming geometric patterns.",
+    "links": ["[[Platonic Solids]]", "[[Vibration Alchemy]]"],
+    "tags": ["frequency", "science", "sound"]
+  },
+  {
+    "id": "vibration-alchemy",
+    "title": "Vibration Alchemy",
+    "summary": "The art of transmutation using sound, light, and resonance.",
+    "links": ["[[Cymatics]]", "[[Time Crystal]]"],
+    "tags": ["alchemy", "sound", "transmutation"]
+  }
+]
